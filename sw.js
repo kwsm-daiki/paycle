@@ -2,21 +2,22 @@
 // 中身を変えたら VERSION を上げる（index.html の ?v= と app.js の APP_VERSION も合わせる）
 // 同じオリジン（<ユーザー名>.github.io）に歌詞ビンゴ・Nudge・Utalog もあるので、触るキャッシュは "paycle-" で始まるものだけ
 // plans.json には触らない（アプリが毎回ネットから読み、読めなければ localStorage の paycle:plans を使う）
-const VERSION = "v1";
+const VERSION = "v2";
 const PREFIX = "paycle-";
 const CACHE = PREFIX + VERSION;
 const FILES = [
   "./",
   "./index.html",
-  "./style.css?v=1",
-  "./calc.js?v=1",
-  "./app.js?v=1",
+  "./style.css?v=2",
+  "./calc.js?v=2",
+  "./app.js?v=2",
   "./manifest.webmanifest",
   "./icons/icon.svg",
   "./icons/icon-192.png",
   "./icons/icon-512.png",
   "./icons/icon-maskable-512.png",
-  "./icons/apple-touch-icon.png"
+  "./icons/apple-touch-icon.png",
+  "./icons/saving.png"
 ];
 const SCOPE = new URL("./", self.location).pathname;
 

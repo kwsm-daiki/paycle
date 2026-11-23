@@ -4,7 +4,7 @@
 
 (function () {
   var C = window.PaycleCalc;
-  var APP_VERSION = "0.1.0";
+  var APP_VERSION = "0.1.1";
   var KEY = "paycle:data";
   var KEY_PLANS = "paycle:plans";
   var KEY_SORT = "paycle:sort";
@@ -181,14 +181,16 @@
     return null;
   }
 
-  // サービスのアイコン。プリセットは svc/ の PNG、なければ・読めなければ頭文字の四角
+  // サービスのアイコン。プリセットは svc/ の PNG、積立は icons/saving.png（重ねた硬貨と芽）、
+  // なければ・読めなければ頭文字の四角
   function avatar(item, size) {
     var cls = "ic" + (size ? " " + size : "");
     var svc = item.kind !== "saving" && item.presetId ? serviceOf(item.presetId) : null;
     var letter = el("span", { cls: cls + " cat-" + (item.category || "other"), text: (item.name || "?").trim().charAt(0).toUpperCase(), "aria-hidden": "true" });
-    if (!svc || !svc.icon) return letter;
+    var src = item.kind === "saving" ? "icons/saving.png" : (svc && svc.icon) || null;
+    if (!src) return letter;
     var box = el("span", { cls: cls, "aria-hidden": "true" });
-    var img = el("img", { src: svc.icon, alt: "", loading: "lazy" });
+    var img = el("img", { src: src, alt: "", loading: "lazy" });
     img.addEventListener("error", function () { if (box.parentNode) box.parentNode.replaceChild(letter, box); });
     box.appendChild(img);
     return box;
