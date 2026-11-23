@@ -17,6 +17,7 @@
       "plans": [
         { "id": "month", "name": "月払い", "cycle": "month", "yen": 600 },
         { "id": "year", "name": "年払い", "cycle": "year", "yen": 5900 },
+        { "id": "year-split", "name": "年間プラン 毎月分割（491円×12）", "cycle": "month", "yen": 491 },
         { "id": "student-month", "name": "Prime Student 月払い", "cycle": "month", "yen": 300 },
         { "id": "student-year", "name": "Prime Student 年払い", "cycle": "year", "yen": 2950 } ] },
     { "id": "chatgpt", "name": "ChatGPT", "kana": "ちゃっとじーぴーてぃー", "category": "ai", "icon": "svc/chatgpt.png", "estimate": true,
