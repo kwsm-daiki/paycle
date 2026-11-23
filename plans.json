@@ -52,6 +52,14 @@
         { "id": "standard-year", "name": "スタンダード 年払い", "cycle": "year", "yen": 12500 },
         { "id": "premium-month", "name": "プレミアム 月払い", "cycle": "month", "yen": 1670 },
         { "id": "premium-year", "name": "プレミアム 年払い", "cycle": "year", "yen": 16700 } ] },
+    { "id": "lyp-premium", "name": "LYP プレミアム", "kana": "えるわいぴーぷれみあむ", "category": "social", "estimate": true,
+      "plans": [
+        { "id": "light-enjoy-app", "name": "ライトプラン エンジョイパック（アプリから）", "cycle": "month", "yen": 290 },
+        { "id": "standard-web", "name": "スタンダード（Web から）", "cycle": "month", "yen": 508 },
+        { "id": "standard-app", "name": "スタンダード（アプリから）", "cycle": "month", "yen": 650 },
+        { "id": "netflix-ads-app", "name": "with Netflix 広告つきスタンダード（アプリから）", "cycle": "month", "yen": 890 },
+        { "id": "netflix-standard-app", "name": "with Netflix スタンダード（アプリから）", "cycle": "month", "yen": 1590 },
+        { "id": "netflix-premium-app", "name": "with Netflix プレミアム（アプリから）", "cycle": "month", "yen": 2290 } ] },
     { "id": "netflix", "name": "Netflix", "kana": "ねっとふりっくす", "category": "video", "icon": "svc/netflix.png",
       "plans": [
         { "id": "ads", "name": "広告つきスタンダード", "cycle": "month", "yen": 990 },
