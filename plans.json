@@ -52,7 +52,7 @@
         { "id": "standard-year", "name": "スタンダード 年払い", "cycle": "year", "yen": 12500 },
         { "id": "premium-month", "name": "プレミアム 月払い", "cycle": "month", "yen": 1670 },
         { "id": "premium-year", "name": "プレミアム 年払い", "cycle": "year", "yen": 16700 } ] },
-    { "id": "lyp-premium", "name": "LYP プレミアム", "kana": "えるわいぴーぷれみあむ", "category": "social", "estimate": true,
+    { "id": "lyp-premium", "name": "LYP プレミアム", "kana": "えるわいぴーぷれみあむ", "category": "social", "icon": "svc/lyp-premium.png", "estimate": true,
       "plans": [
         { "id": "light-enjoy-app", "name": "ライトプラン エンジョイパック（アプリから）", "cycle": "month", "yen": 290 },
         { "id": "standard-web", "name": "スタンダード（Web から）", "cycle": "month", "yen": 508 },
