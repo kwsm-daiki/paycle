@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "updated": "2026-11-24",
+  "note": "税込の円。estimate: true のサービスは公式のページで確かめられず、解説サイトの記事の金額（目安）。出どころは paycle-plan.md の「プランと金額の調べ」",
+  "services": [
+    { "id": "abema-premium", "name": "ABEMA プレミアム", "kana": "あべまぷれみあむ", "category": "video", "icon": "svc/abema-premium.png", "estimate": true,
+      "plans": [
+        { "id": "ads", "name": "広告つき", "cycle": "month", "yen": 680 },
+        { "id": "standard", "name": "通常", "cycle": "month", "yen": 1180 } ] },
+    { "id": "amazon-music-unlimited", "name": "Amazon Music Unlimited", "kana": "あまぞんみゅーじっくあんりみてっど", "category": "music", "icon": "svc/amazon-music-unlimited.png", "estimate": true,
+      "plans": [
+        { "id": "prime-month", "name": "個人（プライム会員）月払い", "cycle": "month", "yen": 1080 },
+        { "id": "prime-year", "name": "個人（プライム会員）年払い", "cycle": "year", "yen": 10800 },
+        { "id": "month", "name": "個人（プライム会員でない）", "cycle": "month", "yen": 1180 },
+        { "id": "student", "name": "学生", "cycle": "month", "yen": 580 } ] },
+    { "id": "amazon-prime", "name": "Amazon プライム", "kana": "あまぞんぷらいむ", "category": "shopping", "icon": "svc/amazon-prime.png", "estimate": true,
+      "plans": [
+        { "id": "month", "name": "月払い", "cycle": "month", "yen": 600 },
+        { "id": "year", "name": "年払い", "cycle": "year", "yen": 5900 },
+        { "id": "student-month", "name": "Prime Student 月払い", "cycle": "month", "yen": 300 },
+        { "id": "student-year", "name": "Prime Student 年払い", "cycle": "year", "yen": 2950 } ] },
+    { "id": "chatgpt", "name": "ChatGPT", "kana": "ちゃっとじーぴーてぃー", "category": "ai", "icon": "svc/chatgpt.png", "estimate": true,
+      "plans": [
+        { "id": "plus", "name": "Plus", "cycle": "month", "yen": 3000 },
+        { "id": "go", "name": "Go", "cycle": "month", "yen": 1400 } ] },
+    { "id": "claude-pro", "name": "Claude Pro", "kana": "くろーどぷろ", "category": "ai", "icon": "svc/claude-pro.png",
+      "plans": [
+        { "id": "month", "name": "月払い（$20）", "cycle": "month", "yen": null },
+        { "id": "year", "name": "年払い（$200）", "cycle": "year", "yen": null } ] },
+    { "id": "google-one", "name": "Google One", "kana": "ぐーぐるわん", "category": "tools", "icon": "svc/google-one.png",
+      "plans": [
+        { "id": "basic-month", "name": "Basic（100 GB）", "cycle": "month", "yen": 290 },
+        { "id": "ai-plus-400-year", "name": "Google AI Plus（400 GB）年払い", "cycle": "year", "yen": 7250 },
+        { "id": "ai-plus-2tb-month", "name": "Google AI Plus（2 TB）", "cycle": "month", "yen": 1450 },
+        { "id": "ai-pro-month", "name": "Google AI Pro（5 TB）", "cycle": "month", "yen": 2900 } ] },
+    { "id": "d-anime", "name": "dアニメストア", "kana": "でぃーあにめすとあ", "category": "video", "icon": "svc/d-anime.png", "estimate": true,
+      "plans": [
+        { "id": "web", "name": "Web から入会", "cycle": "month", "yen": 660 },
+        { "id": "app", "name": "アプリから入会", "cycle": "month", "yen": 760 } ] },
+    { "id": "discord-nitro", "name": "Discord Nitro", "kana": "でぃすこーどないとろ", "category": "social", "icon": "svc/discord-nitro.png", "estimate": true,
+      "plans": [
+        { "id": "basic-month", "name": "Nitro Basic 月払い", "cycle": "month", "yen": 350 },
+        { "id": "basic-year", "name": "Nitro Basic 年払い", "cycle": "year", "yen": 3500 },
+        { "id": "month", "name": "Nitro 月払い", "cycle": "month", "yen": 1050 },
+        { "id": "year", "name": "Nitro 年払い", "cycle": "year", "yen": 10500 } ] },
+    { "id": "disney-plus", "name": "Disney+", "kana": "でぃずにーぷらす", "category": "video", "icon": "svc/disney-plus.png", "estimate": true,
+      "plans": [
+        { "id": "standard-month", "name": "スタンダード 月払い", "cycle": "month", "yen": 1250 },
+        { "id": "standard-year", "name": "スタンダード 年払い", "cycle": "year", "yen": 12500 },
+        { "id": "premium-month", "name": "プレミアム 月払い", "cycle": "month", "yen": 1670 },
+        { "id": "premium-year", "name": "プレミアム 年払い", "cycle": "year", "yen": 16700 } ] },
+    { "id": "netflix", "name": "Netflix", "kana": "ねっとふりっくす", "category": "video", "icon": "svc/netflix.png",
+      "plans": [
+        { "id": "ads", "name": "広告つきスタンダード", "cycle": "month", "yen": 990 },
+        { "id": "standard", "name": "スタンダード", "cycle": "month", "yen": 1790 },
+        { "id": "premium", "name": "プレミアム", "cycle": "month", "yen": 2590 } ] },
+    { "id": "spotify", "name": "Spotify", "kana": "すぽてぃふぁい", "category": "music", "icon": "svc/spotify.png",
+      "plans": [
+        { "id": "standard", "name": "Premium Standard", "cycle": "month", "yen": 1080 },
+        { "id": "student", "name": "Premium Student", "cycle": "month", "yen": 580 },
+        { "id": "duo", "name": "Premium Duo", "cycle": "month", "yen": 1480 },
+        { "id": "family", "name": "Premium Family", "cycle": "month", "yen": 1880 } ] },
+    { "id": "u-next", "name": "U-NEXT", "kana": "ゆーねくすと", "category": "video", "icon": "svc/u-next.png", "estimate": true,
+      "plans": [
+        { "id": "web", "name": "月額プラン（Web から）", "cycle": "month", "yen": 2189 },
+        { "id": "app", "name": "月額プラン（アプリから）", "cycle": "month", "yen": 2400 } ] },
+    { "id": "youtube-premium", "name": "YouTube Premium", "kana": "ゆーちゅーぶぷれみあむ", "category": "video", "icon": "svc/youtube-premium.png", "estimate": true,
+      "plans": [
+        { "id": "individual-month", "name": "個人 月払い", "cycle": "month", "yen": 1280 },
+        { "id": "individual-year", "name": "個人 年払い", "cycle": "year", "yen": 12800 },
+        { "id": "student", "name": "学生", "cycle": "month", "yen": 780 },
+        { "id": "family", "name": "ファミリー", "cycle": "month", "yen": 2280 } ] },
+    { "id": "line-sticker-premium", "name": "LINE スタンプ プレミアム", "kana": "らいんすたんぷぷれみあむ", "category": "social", "icon": "svc/line-sticker-premium.png",
+      "plans": [
+        { "id": "basic-student", "name": "ベーシック 学割", "cycle": "month", "yen": 150 },
+        { "id": "basic-month", "name": "ベーシック 月払い", "cycle": "month", "yen": 290 },
+        { "id": "basic-year", "name": "ベーシック 年払い", "cycle": "year", "yen": 2900 },
+        { "id": "deluxe-student", "name": "デラックス 学割", "cycle": "month", "yen": 490 },
+        { "id": "deluxe-month", "name": "デラックス 月払い", "cycle": "month", "yen": 650 },
+        { "id": "deluxe-year", "name": "デラックス 年払い", "cycle": "year", "yen": 6500 } ] }
+  ]
+}
