@@ -23,10 +23,12 @@
       "plans": [
         { "id": "plus", "name": "Plus", "cycle": "month", "yen": 3000 },
         { "id": "go", "name": "Go", "cycle": "month", "yen": 1400 } ] },
-    { "id": "claude-pro", "name": "Claude Pro", "kana": "くろーどぷろ", "category": "ai", "icon": "svc/claude-pro.png",
+    { "id": "claude-pro", "name": "Claude", "kana": "くろーど", "category": "ai", "icon": "svc/claude-pro.png", "estimate": true,
       "plans": [
-        { "id": "month", "name": "月払い（$20）", "cycle": "month", "yen": null },
-        { "id": "year", "name": "年払い（$200）", "cycle": "year", "yen": null } ] },
+        { "id": "month", "name": "Pro 月払い（$20）", "cycle": "month", "yen": 3497 },
+        { "id": "year", "name": "Pro 年払い（$200）", "cycle": "year", "yen": 34974 },
+        { "id": "max", "name": "Max（$100）", "cycle": "month", "yen": 17487 },
+        { "id": "ultra", "name": "Ultra（$200）", "cycle": "month", "yen": 34974 } ] },
     { "id": "google-one", "name": "Google One", "kana": "ぐーぐるわん", "category": "tools", "icon": "svc/google-one.png",
       "plans": [
         { "id": "basic-month", "name": "Basic（100 GB）", "cycle": "month", "yen": 290 },
